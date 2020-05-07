@@ -104,5 +104,5 @@ Object destroy, id:2
 ```
 
 
-## Todo
-[] More samples
+## TODOs
+- [ ] More samples

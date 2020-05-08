@@ -3,14 +3,14 @@
  * License BSD 3-Clause (https://opensource.org/licenses/BSD-3-Clause)
  */
 
-/**
- *  WAsys_simple_generic_object_pool_sample_usage
- *  File: Main.java
- *  Created on: May 7, 2020 11:17:11 PM | last edit: May 7, 2020
- *      @author https://github.com/911992
- * 
- *  History:
- *      initial version: 0.1(20200507)
+/*
+WAsys_simple_generic_object_pool_sample_usage
+File: Main.java
+Created on: May 7, 2020 11:17:11 PM | last edit: May 7, 2020
+    @author https://github.com/911992
+  
+History:
+    initial version: 0.1(20200507)
  */
 
 package wasys.lib.generic_object_pool_usage_example.example0;

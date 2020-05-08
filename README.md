@@ -2,6 +2,10 @@
 Sample usage for https://github.com/911992/WAsys_simple_generic_object_pool
 
 ## Revision History
+**0.2** (May 8, 2020)
+0. Update all files info headers into non javadoc(simple multiline comment) format.
+1. Updated file `Test_Run.java` to be compatible with v0.2 artifcat
+
 **Initial Release 0.1** (May 7, 2020)
 
 ## Requirements

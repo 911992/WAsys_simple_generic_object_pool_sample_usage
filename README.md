@@ -2,7 +2,7 @@
 Sample usage for https://github.com/911992/WAsys_simple_generic_object_pool
 
 ## Revision History
-**0.2** (May 8, 2020)
+**0.2** (May 8, 2020)  
 0. Update all files info headers into non javadoc(simple multiline comment) format.
 1. Updated file `Test_Run.java` to be compatible with v0.2 artifcat
 
@@ -14,15 +14,15 @@ Sample usage for https://github.com/911992/WAsys_simple_generic_object_pool
 ## Entries
 
 ### Thread-safe Object Pool In Concurrent Env
-package: `wasys.lib.generic_object_pool_usage_example.example0`
-Sample using the multi-threaded pool. Considerinng following setup for the pool object
-• Min(initial) pool size: 2
-• Max possible objects: 4
-• Policy for object creation when pool has no any idle/ready obj to return: `Wait_Till_One_Free`
-• Object pool thread-safe mode: `true`
-• Number of concurrent thread runs: 32
+package: `wasys.lib.generic_object_pool_usage_example.example0`  
+Sample using the multi-threaded pool. Considerinng following setup for the pool object  
+• Min(initial) pool size: 2  
+• Max possible objects: 4  
+• Policy for object creation when pool has no any idle/ready obj to return: `Wait_Till_One_Free`  
+• Object pool thread-safe mode: `true`  
+• Number of concurrent thread runs: 32  
 
-Meta configs(good to be considered)
+Meta configs(good to be considered)  
 • Random sleep time on actual business work `Add_Op_Entity::show_add(void):void` method to simulate `Wait_Till_One_Free` easier
 
 Main class: `Main`

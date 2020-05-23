@@ -10,6 +10,9 @@ Created on: May 7, 2020 11:17:11 PM | last edit: May 7, 2020
     @author https://github.com/911992
   
 History:
+    0.4(20200522)
+        • Fixed the way for `new`ing the `_pool_policy:Generic_Object_Pool_Policy` in `main` method(compatible with API(WAsys_simple_generic_object_pool) change v0.4)
+
     initial version: 0.1(20200507)
  */
 
@@ -26,7 +29,7 @@ import wasys.lib.generic_object_pool_usage_example.shared.Test_Run;
  */
 public class Main {
     public static void main(String[] args) {
-        Generic_Object_Pool_Policy _pool_policy=new Generic_Object_Pool_Policy(4, 2, Full_Pool_Object_Creation_Policy.Wait_Till_One_Free);
+        Generic_Object_Pool_Policy _pool_policy=new Generic_Object_Pool_Policy(2,4, Full_Pool_Object_Creation_Policy.Wait_Till_One_Free);
         int _thread_count = 32;
         boolean _threaded_pool = true;
         Test_Run.run(_pool_policy, _thread_count, _threaded_pool);

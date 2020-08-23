@@ -2,7 +2,7 @@
 Sample usage for https://github.com/911992/WAsys_simple_generic_object_pool
 
 ## Revision History
-Latest: v0.4 (May 22, 2020)  
+Latest: v0.5.1 (Aug 23, 2020)  
 Please refer to [release_note.md](./release_note.md) file  
 
 ## Requirements

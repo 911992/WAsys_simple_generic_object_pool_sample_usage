@@ -10,6 +10,9 @@ Created on: May 7, 2020 11:17:11 PM | last edit: May 7, 2020
     @author https://github.com/911992
   
 History:
+    0.5.7(20200829)
+        • Renamed _threaded_pool var to _thread_safe_pool (make sense more now)
+    
     0.4(20200522)
         • Fixed the way for `new`ing the `_pool_policy:Generic_Object_Pool_Policy` in `main` method(compatible with API(WAsys_simple_generic_object_pool) change v0.4)
 
@@ -31,8 +34,8 @@ public class Main {
     public static void main(String[] args) {
         Generic_Object_Pool_Policy _pool_policy=new Generic_Object_Pool_Policy(2,4, Full_Pool_Object_Creation_Policy.Wait_Till_One_Free);
         int _thread_count = 32;
-        boolean _threaded_pool = true;
-        Test_Run.run(_pool_policy, _thread_count, _threaded_pool);
+        boolean _thread_safe_pool = true;
+        Test_Run.run(_pool_policy, _thread_count, _thread_safe_pool);
     }
     
     /*
